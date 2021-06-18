@@ -1,3 +1,8 @@
+2021-05-27  jtrain
+	* Support Django 3.2
+	* Version 0.9.8
+
+
 2021-05-27  haard
 	* Support Django 2.2
 	* Modified ModelAdmins to include declaration of jQuery dependencies.
