@@ -48,7 +48,6 @@ setup(
     keywords="html markdown django",
     classifiers=[
         "Development Status :: 5 - Production/Stable",
-        "Framework :: Django :: 2.0",
         "Framework :: Django :: 3.0",
         "Framework :: Django :: 3.2",
         "Intended Audience :: Developers",
