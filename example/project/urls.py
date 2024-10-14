@@ -8,8 +8,8 @@ admin.autodiscover()
 flatpages.register()
 
 urlpatterns = [
-    path('markdown/', include('django_markdown.urls')),
-    path('admin/', admin.site.urls),
-    path('pages/', include('django.contrib.flatpages.urls')),
-    path('', include('project.md.urls')),
+    path("markdown/", include("django_markdown.urls")),
+    path("admin/", admin.site.urls),
+    path("pages/", include("django.contrib.flatpages.urls")),
+    path("", include("project.md.urls")),
 ]

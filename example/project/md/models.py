@@ -3,7 +3,7 @@ from django_markdown.models import MarkdownField
 
 
 class ContentObject(models.Model):
-    """ Class description. """
+    """Class description."""
 
     content = MarkdownField()
     description = MarkdownField()
